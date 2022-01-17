@@ -1,11 +1,12 @@
-import Head from 'next/head'
+import Head from "next/head";
 // import { Navbar, Footer, Sleep } from './components'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Sleep from './components/Sleep'
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Sleep from "./components/Sleep";
+import Reproducing from "./components/💦";
 
 export default function Home() {
-	return (
+  return (
     <div>
       <Head>
         <title>Jeremy | Status</title>
@@ -16,8 +17,9 @@ export default function Home() {
       <div className="h-screen overflow-x-hidden">
         <Navbar />
         <Sleep />
+        <Reproducing />
         <Footer />
       </div>
     </div>
-  )
+  );
 }
